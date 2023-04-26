@@ -1,6 +1,7 @@
 name: Testing CI_v2
 on:
-  push: ["ci-test"]
+  push: 
+    branches: ["ci-test"]
 jobs:
   checking-env:
     runs-on: ubuntu-20.04
