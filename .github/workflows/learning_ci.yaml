@@ -1,4 +1,4 @@
-name: Testing CI
+name: Testing CI_v2
 on:
   push: ["ci-test"]
 jobs:
